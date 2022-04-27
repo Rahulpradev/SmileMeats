@@ -1,0 +1,6 @@
+framework module Pods_SmileMeats {
+  umbrella header "Pods-SmileMeats-umbrella.h"
+
+  export *
+  module * { export * }
+}
