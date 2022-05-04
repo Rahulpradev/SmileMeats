@@ -11,8 +11,16 @@ import SwiftUI
 var dashboardList = ["Apple", "Banana", "Cat"]
 
 struct DashboardView: View {
+    @State var isShowing: Bool = false
+    
     var body: some View {
         DashboardItemList
+            .onTapGesture {
+                isShowing = true
+            }
+            .toast(isShowing: $isShowing, ontap: {
+                isShowing = false
+            })
     }
 }
 

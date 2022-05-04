@@ -5,6 +5,7 @@ target 'SmileMeats' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+  pod 'SmileMeatsUIComponents', :path => "../SmileMeatsUIComponents/SmileMeatsUIComponents"
   # Pods for SmileMeats
 
   target 'SmileMeatsTests' do

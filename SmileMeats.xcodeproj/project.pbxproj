@@ -15,6 +15,7 @@
 		3A18DB2F2818FDC400278E87 /* SmileMeatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18DB2E2818FDC400278E87 /* SmileMeatsUITests.swift */; };
 		3A18DB312818FDC400278E87 /* SmileMeatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18DB302818FDC400278E87 /* SmileMeatsUITestsLaunchTests.swift */; };
 		3A18DB412819122600278E87 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18DB402819122600278E87 /* DashboardView.swift */; };
+		3A86D9DF281BA9620043C469 /* SMToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86D9DE281BA9620043C469 /* SMToastView.swift */; };
 		3A8C8555281A841500EC7252 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 3A8C8554281A841500EC7252 /* LICENSE.md */; };
 		3A8E33D62819391F00056387 /* DashboardItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E33D52819391F00056387 /* DashboardItemModel.swift */; };
 		3A8E33D828193A6D00056387 /* DashboardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E33D728193A6D00056387 /* DashboardCardView.swift */; };
@@ -52,6 +53,7 @@
 		3A18DB2E2818FDC400278E87 /* SmileMeatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileMeatsUITests.swift; sourceTree = "<group>"; };
 		3A18DB302818FDC400278E87 /* SmileMeatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileMeatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A18DB402819122600278E87 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		3A86D9DE281BA9620043C469 /* SMToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMToastView.swift; sourceTree = "<group>"; };
 		3A8C8554281A841500EC7252 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		3A8E33D52819391F00056387 /* DashboardItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardItemModel.swift; sourceTree = "<group>"; };
 		3A8E33D728193A6D00056387 /* DashboardCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCardView.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		3A18DB122818FDC300278E87 /* SmileMeats */ = {
 			isa = PBXGroup;
 			children = (
+				3A8E16DD281ACC7D004FEF18 /* Classes */,
 				3A18DB3F281911B600278E87 /* ViewModel */,
 				3A18DB3E281911AA00278E87 /* Router */,
 				3A18DB3D2819119400278E87 /* View */,
@@ -172,6 +175,7 @@
 			children = (
 				3A18DB402819122600278E87 /* DashboardView.swift */,
 				3A8E33D728193A6D00056387 /* DashboardCardView.swift */,
+				3A86D9DE281BA9620043C469 /* SMToastView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,6 +192,13 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A8E16DD281ACC7D004FEF18 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		9CFA3A0EA3FAFF02243E534C /* Pods */ = {
@@ -408,6 +419,7 @@
 			files = (
 				3A18DB162818FDC300278E87 /* ContentView.swift in Sources */,
 				3A8E33D828193A6D00056387 /* DashboardCardView.swift in Sources */,
+				3A86D9DF281BA9620043C469 /* SMToastView.swift in Sources */,
 				3A18DB412819122600278E87 /* DashboardView.swift in Sources */,
 				3A18DB142818FDC300278E87 /* SmileMeatsApp.swift in Sources */,
 				3A8E33D62819391F00056387 /* DashboardItemModel.swift in Sources */,

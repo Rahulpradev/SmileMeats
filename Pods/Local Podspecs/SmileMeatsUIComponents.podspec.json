@@ -1,0 +1,26 @@
+{
+  "name": "SmileMeatsUIComponents",
+  "version": "1.0.0",
+  "summary": "This is a reusbale UI components for upcoming development of apps.",
+  "description": "This is UI component framework which will be used for the development of apps hereon.",
+  "homepage": "https://github.com/Rahulpradev/SmileMeatsUIComponents",
+  "license": "MIT",
+  "authors": {
+    "Rahul Pradev": "rahulmysterio1212@gmail.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "git": "https://github.com/Rahulpradev/SmileMeatsUIComponents.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "SmileMeatsUIComponents/SmileMeatsUIComponents/**/*",
+  "swift_versions": [
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3"
+  ],
+  "swift_version": "5.3"
+}
